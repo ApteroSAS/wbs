@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 886.7 213.8" style="enable-background:new 0 0 886.7 213.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:#F59C26;}
+	.st2{fill:#F05E46;}
+	.st3{fill:#172540;}
+	.st4{fill:#AC4A07;}
+	.st5{fill:#B77821;}
+	.st6{fill:#F07927;}
+	.st7{fill:#87591B;}
+	.st8{fill:#EFF4FA;}
+</style>
+<g id="Calque_2_1_">
+	<g id="Typogramme_normal">
+		<g class="st0">
+			<path class="st1" d="M345.9,87.6c0,28.3-21.4,45.9-55.4,45.9h-21.7v32.6h-35.2V41.5h57C324.5,41.5,345.9,59.1,345.9,87.6z
+				 M310.3,87.6c0-11.6-7.3-18.3-21.9-18.3h-19.6v36.5h19.6C303,105.8,310.3,99,310.3,87.6z"/>
+		</g>
+		<g class="st0">
+			<path class="st1" d="M386.5,69.5h-38.3V41.5h111.6v27.9h-38.1v96.7h-35.2V69.5z"/>
+			<path class="st1" d="M573,138.9v27.2H473V41.5h97.7v27.2h-62.8v21h55.4v26.3h-55.4v22.8H573z"/>
+			<path class="st1" d="M647.1,133h-19.2v33.1h-35.2V41.5h57c34,0,55.4,17.6,55.4,46.1c0,18.3-8.9,31.9-24.4,39.3l26.9,39.2h-37.7
+				L647.1,133z M647.4,69.3h-19.6v36.5h19.6c14.6,0,21.9-6.8,21.9-18.2C669.3,76,662,69.3,647.4,69.3z"/>
+			<path class="st1" d="M717.9,103.8c0-37.4,29.4-64.8,69.2-64.8s69.2,27.4,69.2,64.8c0,37.4-29.4,64.8-69.2,64.8
+				S717.9,141.2,717.9,103.8z M820.8,103.8c0-21.5-14.8-35.6-33.6-35.6s-33.6,14.1-33.6,35.6c0,21.5,14.8,35.6,33.6,35.6
+				S820.8,125.3,820.8,103.8z"/>
+		</g>
+		<g id="Sigle">
+			<polygon id="Principale_Rouge" class="st2" points="34.7,68.2 104.9,205.7 34.8,205.7 0,137.6 			"/>
+			<polygon id="Principale_Bleu" class="st3" points="68.8,0 34.7,68.2 186.4,68.1 152.3,0 			"/>
+			<polygon id="Principale_Jaune" class="st1" points="186.4,68.2 116.2,205.7 186.4,205.7 221.1,137.6 			"/>
+			<polygon id="Secondaire_Gauche" class="st4" points="69.8,136.9 94.8,68.2 34.7,68.2 			"/>
+			<polygon id="Secondaire_Droite" class="st5" points="151.3,136.9 186.4,68.2 126,68.2 			"/>
+			<polygon id="Secondaire_Bas" class="st6" points="69.8,136.9 151.3,136.9 116.2,205.7 104.9,205.7 			"/>
+			<polygon id="Secondaire_Centre" class="st7" points="94.8,68.2 126,68.2 151.3,136.9 69.8,136.9 			"/>
+			<path id="A" class="st8" d="M131.5,35.6l48.9,130.8H139l-6.3-21.5H86.8l-6.3,21.5H39L88,35.6H131.5z M95.5,116.3h28.2l-14-46
+				L95.5,116.3z"/>
+		</g>
+	</g>
+</g>
+</svg>

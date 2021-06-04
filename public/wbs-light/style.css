@@ -1,0 +1,374 @@
+ html {
+    height: 100%;
+   }
+   body {
+     background: #F8F8F8;
+     background-image: url(src/img/img4.svg), url(src/img/image3.svg);
+     background-position: bottom center, top center;
+     background-repeat: no-repeat;
+     background-size: 100% 32%, 100% 60%;
+     height: 100%;
+   }
+   a:disabled,
+   button:disabled {
+     cursor: not-allowed;
+   }
+   
+   .alert-dismissible .close {
+     padding: .4rem 1.25rem;
+   }
+   
+   #top-nav {
+     background: #FFFFFF;
+     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+   }
+   
+   #JumpStreamer {
+     margin-top: 3em;
+     max-width: 1500px;
+     
+   }
+   #play-video-container {
+     height:0;
+     width:100%;
+     /*padding-bottom:57%;*/
+     background-color:rgba(102, 102, 102, 1);
+     border-radius:0.75em;
+     
+   }
+   
+   #player-video,
+   #publisher-video {
+     width: 100%    !important;
+     height: auto   !important;
+     background: #EEEEEE;
+     border-radius: 10px;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+     outline:none;
+   }
+   
+   #video-live-indicator {
+     position: absolute;
+     top: 0.5em;
+     left: 1.5em;
+     opacity: 90%;
+   }
+   
+   #build {
+     
+     color:#ccc;
+     font-size:50%;
+     bottom:1em;
+     right:1em;
+   }
+
+
+   /*
+ BOUTTON AUDIO, PUBLISHER, VIDEO
+ */
+
+#title, #title2 {
+    font-size:140%;
+    font-weight:normal;
+    line-height: normal;
+    padding:0;
+    margin:0;
+  }
+  
+  #play-JumpStreamer {
+    margin-top:0;
+    max-width: 1500px;
+  }
+  
+  #hosted-page-url-container{
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 5em;
+  }
+  #hosted-page-url-container label {
+    margin-top: 5px;
+  
+  }
+  
+  #hosted-page-url:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+  
+  }
+  
+  #copy-hosted-page:hover {
+    cursor: pointer;
+  }
+  
+  #settings-saved-toast {
+    margin:auto;
+    width:200px;
+  }
+  #play-video-container-cloud {
+    height:auto;
+    width:100%;
+    padding:0;
+  }
+  #play-video-placeholder {
+    height:0;
+    width:100%;
+    padding-bottom:57%;
+    background-color:rgba(102, 102, 102, 1);
+    border-radius:0.75em;
+  }
+  
+  #video-controls {
+    width: 100%    !important;
+    position: relative;
+    bottom: 65px;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
+    padding-bottom: 5px;
+  }
+  
+  #play-video-controls {
+    width: 100%    !important;
+    position: relative;
+    top: 20px;
+    margin: 0;
+    text-align:center;
+  }
+  
+  #control-button-wrapper {
+    /* width: 355px; */
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  #publish-toggle, #play-toggle {
+    text-align:center;
+    padding: 10px 0 10px 0;
+    width: 122px;
+  }
+  #mute-toggle {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    width: 50px;
+  }
+  
+  #settings-button-large {
+    background: transparent;
+    border: none;
+  }
+  
+  .av-control {
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .av-control-wrapper {
+    display: inline;
+  }
+  
+  .control-button {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    color: #FF8400;
+    font-size: 21px;
+  }
+  
+  .play-control-button {
+    background: #FF8400;
+    box-shadow: 0;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 21px;
+  }
+  
+  #settings-button-large,
+  .av-control:focus,
+  .control-button:focus{
+    outline: none;
+  }
+  
+  .circle-button {
+    padding: 10px;
+    width: 53px;
+  }
+  
+  .left-offset-button{
+    margin-left: 14px;
+  }
+  
+  .settings-modal-button {
+    width: 100%;
+    border-radius: 55px;
+  }
+ 
+  
+  .device-list {
+    list-style-type: none;
+  }
+  
+  .popover {
+    padding: .5rem 0 .5rem 0;
+  }
+  
+  .popover-body {
+    padding: 0 !important;
+  }
+  
+  .device-list-item {
+    cursor: pointer;
+    padding: .5rem .75rem;
+    margin: 0;
+  }
+  
+  .device-list-item:hover {
+    background-color: #e9ecef;
+  }
+
+  
+
+
+  /* CSS ESSAIE*/
+
+  .screenshot-image {
+    width: 150px;
+    height: 90px;
+    border-radius: 4px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    background: white;
+   
+}
+
+.display-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5% auto;
+    position: relative;
+    
+}
+
+video {
+    /*width: 100%;
+    background: #EEEEEE;
+    
+    border-radius: 10px;*/
+     width: 100%    !important;
+     height: auto   !important;
+     background: rgba(0, 0, 0, 0.2);
+     border-radius: 10px;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+     outline:none;
+}
+
+.video-options {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+.controls {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.controls > button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 40%;
+    margin: 0 6px;
+    background: transparent;
+    text-align:center;
+    padding: 10px 0 10px 0;
+    width: 122px;
+}
+
+.controls > button:hover svg {
+    color: white !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls button {
+        margin: 5px 0 !important;
+    }
+}
+
+.controls > button > svg {
+    height: 20px;
+    width: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.controls button:nth-child(1) {
+    border: 2px solid linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.controls button:nth-child(1) svg {
+    color: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.controls button:nth-child(2) {
+    border: 2px solid linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.controls button:nth-child(2) svg {
+    color: #FF8400;
+}
+
+.controls button:nth-child(3) {
+    border: 2px solid linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.controls button:nth-child(3) svg {
+    color: #00B541;
+}
+
+.controls > button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 13%;
+    margin: 0 6px;
+    background: transparent;
+    text-align: center;
+  
+}
+
+.controls > button:hover svg {
+    color: white;
+}
+
+#menu-haut ul{
+  background: #e9ecef; 
+  position: absolute;
+  list-style-type: none;
+}
+#myList, #mylist1{
+cursor: pointer;
+}
