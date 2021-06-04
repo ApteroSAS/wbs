@@ -1,4 +1,4 @@
-# browserLiveStream
+# browserLiveStream g
 Use your webcam, browser and NodeJS to stream live video from a webpage to your users.
 
 Based on the [https://github.com/chenxiaoqino/getusermedia-to-rtmp](https://github.com/chenxiaoqino/getusermedia-to-rtmp) codebase, 
