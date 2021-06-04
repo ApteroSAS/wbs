@@ -1,0 +1,2 @@
+rem docker run -p 1437:1437 --mount src="%cd%\\public\\wbs",target=/public/wbs/,type=bind -it --rm --name web-broadcaster web-broadcaster:latest
+docker run -p 1437:1437 --mount src="C:\\Workspace\\ApteroVR\\aptero_hub\\microservice\\web-broadcast\\public",target=/public/,type=bind -it --rm --name web-broadcaster web-broadcaster:latest
